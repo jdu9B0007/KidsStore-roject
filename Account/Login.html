@@ -14,8 +14,8 @@
 </head>
 
 <body>
-    <header class="mx-3 mt-3">
-        <nav class="navbar navbar-expand-md rounded-top bg-nav">
+    <header class="mx-3">
+        <nav class="navbar navbar-expand-md bg-nav">
 
             <div class="container-fluid">
                 <a class="navbar-brand" onclick="window.location.assign(window.location.origin)"><img
@@ -63,7 +63,7 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" id="register" href="./Register.html">Register</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item highlightURL">
                             <a class="nav-link text-dark" id="login" href="./Login.html">Login</a>
                         </li>
                         <li class="nav-item">
@@ -107,6 +107,7 @@
     <img src="../images/footer.png" style="width: 100%; margin-bottom: -60px;">
     <script src="AccountManager.js">
     </script>
+    <script src="/Account/LoginControl.js"></script>
     <script>
         document.getElementById("Password").onkeydown = function (e) {
             if (e.key == "Enter") {

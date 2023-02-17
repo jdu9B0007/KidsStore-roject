@@ -3,7 +3,7 @@
   position: absolute;
   bottom: 1rem;
   width: calc( 100% - 2rem );
-
+  
   height: 60px;
   background: linear-gradient(to left, #8c8df1, #e786f4);
 } */
@@ -13,11 +13,41 @@
 }
 
 .bg-nav {
-  background-color: #73AFFD;
+  background: radial-gradient(#3580e6, #1d4ed9);
 }
 
+header a {
+  margin:auto 10px;
+  cursor:pointer;
+  font-size: 2em !important;
+  font-weight: 900 !important;
+  color: white !important;
+  
+}
+
+header a:hover {
+  cursor:pointer;
+  font-size: 2em !important;
+  font-weight: 900 !important;
+  
+}
+
+
+.wrap {
+  border-radius: 0 0 0 8px;
+  padding: 0;
+  margin: 0 1rem;
+  position: sticky;
+  top: 0px;
+  z-index: 1000;
+  background: radial-gradient(#3580e6, #1d4ed9);
+  /* background-color: rgba(85, 85, 85, 0.451); */
+}
 .highlight {
   background: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-1&color=ffff43);
+}
+.highlightURL {
+  background: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-1&color=FED023);
 }
 
 div.container {
@@ -29,8 +59,10 @@ main img {
 
 .logoImage{
   aspect-ratio: 2 / 1;
-  height: 70px;
+  height: 50px;
   margin: 0;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 .gradient-custom {
   background: linear-gradient(to right, #8c8df1, #e786f4);
@@ -64,7 +96,7 @@ main img {
   width: 100%;
   transition: all 0.25s;
   box-shadow: 10px 10px 30px 3px;
-  background: #FAFBFF;
+  background: #F6F7FB;
 }
 
 .cartMenuMin {
@@ -128,16 +160,6 @@ main img {
   font-weight: bolder;
 }
 
-.wrap {
-  border-radius: 0 0 0 8px;
-  padding: 0;
-  margin: 0 1rem;
-  position: sticky;
-  top: 0px;
-  z-index: 1000;
-  background: #73AFFD;
-  /* background-color: rgba(85, 85, 85, 0.451); */
-}
 
 .search {
   margin: 0px 0;
@@ -150,6 +172,8 @@ main img {
   outline: none;
   border-radius: 0 5px 5px 5px;
   background: rgba(0, 0, 0, 0);
+  color: white;
+  padding-left: 10px;
 }
 .searchButton {
   margin: 0;
@@ -220,12 +244,6 @@ main img {
   padding-left: 5px;
   flex: auto;
   /* background-color: black; */
-}
-header a {
-
-  cursor:pointer;
-  font-size: 2em !important;
-  font-weight: 900 !important;
 }
 .imgIcon {
   border-radius: 4px 0 0 4px;
