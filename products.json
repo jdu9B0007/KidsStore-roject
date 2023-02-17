@@ -1,0 +1,64 @@
+[
+  {
+    "id": 1,
+    "name": "MY NEIGHBOR TOTORO",
+    "price": 29.99,
+    "image": "totoro.png",
+    "description": "GHIBLI - MY NEIGHBOR TOTORO - PUZZLE CRYSTAL 3D"
+  },
+  {
+    "id": 2,
+    "name": "GUNDAM THE ORIGIN",
+    "price": 44.65,
+    "image": "gandam.png",
+    "description": "The classic RX-78-02 is back and now in Master Grade! This time it is styled as 'The Origin' version from the popular manga comic 'Mobile Suit Gundam : The Origin' This new Master Grade release features a new shoulder cannon as well a more flexible waist and legs. Effect parts for the gatlinggun muzzle flash as well as firing missile are also included. An amazingly engineered snapfit kit molded in multiple colors, with excellent peel-off stick-on markings."
+  }
+  ,
+  {
+    "id": 3,
+    "name": "GUNDAM THE ORIGIN",
+    "price": 44.65,
+    "image": "gandam.png",
+    "description": "The classic RX-78-02 is back and now in Master Grade! This time it is styled as 'The Origin' version from the popular manga comic 'Mobile Suit Gundam : The Origin' This new Master Grade release features a new shoulder cannon as well a more flexible waist and legs. Effect parts for the gatlinggun muzzle flash as well as firing missile are also included. An amazingly engineered snapfit kit molded in multiple colors, with excellent peel-off stick-on markings."
+  }
+  ,
+  {
+    "id": 4,
+    "name": "GUNDAM THE ORIGIN",
+    "price": 44.65,
+    "image": "gandam.png",
+    "description": "The classic RX-78-02 is back and now in Master Grade! This time it is styled as 'The Origin' version from the popular manga comic 'Mobile Suit Gundam : The Origin' This new Master Grade release features a new shoulder cannon as well a more flexible waist and legs. Effect parts for the gatlinggun muzzle flash as well as firing missile are also included. An amazingly engineered snapfit kit molded in multiple colors, with excellent peel-off stick-on markings."
+  }
+  ,
+  {
+    "id": 5,
+    "name": "GUNDAM THE ORIGIN",
+    "price": 44.65,
+    "image": "gandam.png",
+    "description": "The classic RX-78-02 is back and now in Master Grade! This time it is styled as 'The Origin' version from the popular manga comic 'Mobile Suit Gundam : The Origin' This new Master Grade release features a new shoulder cannon as well a more flexible waist and legs. Effect parts for the gatlinggun muzzle flash as well as firing missile are also included. An amazingly engineered snapfit kit molded in multiple colors, with excellent peel-off stick-on markings."
+  }
+  ,
+  {
+    "id": 6,
+    "name": "GUNDAM THE ORIGIN",
+    "price": 44.65,
+    "image": "gandam.png",
+    "description": "The classic RX-78-02 is back and now in Master Grade! This time it is styled as 'The Origin' version from the popular manga comic 'Mobile Suit Gundam : The Origin' This new Master Grade release features a new shoulder cannon as well a more flexible waist and legs. Effect parts for the gatlinggun muzzle flash as well as firing missile are also included. An amazingly engineered snapfit kit molded in multiple colors, with excellent peel-off stick-on markings."
+  }
+  ,
+  {
+    "id": 7,
+    "name": "GUNDAM THE ORIGIN",
+    "price": 44.65,
+    "image": "gandam.png",
+    "description": "The classic RX-78-02 is back and now in Master Grade! This time it is styled as 'The Origin' version from the popular manga comic 'Mobile Suit Gundam : The Origin' This new Master Grade release features a new shoulder cannon as well a more flexible waist and legs. Effect parts for the gatlinggun muzzle flash as well as firing missile are also included. An amazingly engineered snapfit kit molded in multiple colors, with excellent peel-off stick-on markings."
+  }
+  ,
+  {
+    "id": 8,
+    "name": "GUNDAM THE ORIGIN",
+    "price": 44.65,
+    "image": "gandam.png",
+    "description": "The classic RX-78-02 is back and now in Master Grade! This time it is styled as 'The Origin' version from the popular manga comic 'Mobile Suit Gundam : The Origin' This new Master Grade release features a new shoulder cannon as well a more flexible waist and legs. Effect parts for the gatlinggun muzzle flash as well as firing missile are also included. An amazingly engineered snapfit kit molded in multiple colors, with excellent peel-off stick-on markings."
+  }
+]

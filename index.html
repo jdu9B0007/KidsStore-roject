@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kids Toys</title>
+  <link rel="stylesheet" href="/wwwroot/css/bootswatch.css" />
+  <link rel="stylesheet" href="/wwwroot/css/site.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <link rel="stylesheet" href="./style.css">
+  <style>
+    * {
+      /* border: solid; */
+    }
+  </style>
+</head>
+
+<body>
+  <header class="mx-3 mt-3">
+    <nav class="navbar navbar-expand-md rounded-top bg-nav">
+
+      <div class="container-fluid">
+        <a class="navbar-brand" onclick="window.location.assign(window.location.origin)"><img src="./images/Logo.png"
+            class="logoImage"></a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02"
+          aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+
+        <div class="collapse navbar-collapse" id="navbarColor02">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+
+              <a class="nav-link" onclick="window.location.assign(window.location.origin)">Home</a>
+            </li>
+            <li class="nav-item">
+
+            </li>
+            <li class="nav-item">
+
+            </li>
+
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                aria-expanded="false">Content Management</a> -->
+            <!-- <div class="dropdown-menu">
+                <a class="dropdown-item" asp-area="Admin" asp-controller="Category" asp-action="index">Category</a>
+                <a class="dropdown-item" asp-area="Admin" asp-controller="CoverType" asp-action="index">Cover Type</a>
+                <a class="dropdown-item" asp-area="Admin" asp-controller="Product" asp-action="index">Product</a>
+                <a class="dropdown-item" asp-area="Admin" asp-controller="Company" asp-action="index">Company</a>
+              </div> -->
+            <!-- </li> -->
+            <li class="nav-item">
+              <a class="nav-link" asp-area="Admin" asp-controller="Order" asp-action="Index">
+                Orders
+              </a>
+            </li>
+
+
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-dark" id="register" href="./Account/Register.html">Register</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" id="login" href="./Account/Login.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" id="User" href="#"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" id="LogOut" href="#">LogOut</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div>
+    <div class="flex-container wrap">
+      <div class="flex-item-left">
+
+        <div class="search">
+          <input type="search" name="search" class="searchTerm" pattern=".*\S.*" required>
+          <button class="search-btn searchButton" type="button" onclick="someFunc()">
+            <span><i class="bi bi-search"></i></span>
+          </button>
+        </div>
+      </div>
+      <div class="flex-item-right">
+        <div id="CartIcon" class="cartRight">
+          <i class="bi bi-cart"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-body mx-3 mb-5 flex-container">
+
+      <div id="siteBody" class="pos1 poswidth2 mb-">
+        <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true"
+              aria-label="First slide"></li>
+            <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+            <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <img src="./images/main.png" class="w-100 d-block" alt="First slide">
+              <div class="carousel-caption d-none d-md-block" style="background-color: rgba(0,0,0, 0.2);">
+                <h3>Title</h3>
+                <button>buy</button>
+                <p>Description</p>
+
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./images/main.png" class="w-100 d-block" alt="Second slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Title</h3>
+                <p>Description</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./images/main.png" class="w-100 d-block" alt="Third slide">
+              <div class="carousel-caption d-none d-md-block" style="background-color: rgba(red, green, blue, 0.2);">
+                <h3>Title</h3>
+                <button>buy</button>
+                <p>Description</p>
+
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div id="cartMin">
+        </div>
+        <div class="divider">
+          <!-- this is div -->
+          <img class="KidsToysStore" src="./images/KidsToysStore.png" />
+        </div>
+
+
+
+        <div class="container-fluid col-12 rounded contentBody">
+          <div id="items" class="row pb-3">
+
+          </div>
+
+          </main>
+        </div>
+
+      </div>
+      <div id="cartMax" class="flex-item-right">
+        <div id="cartMenu" class="cartMenuMax cartMenu-hidden">
+          <div id="CloseButton">
+            <!-- <a href="javascript:void(0)" class="bar-item button right"><i class="bi bi-x"></i></a> -->
+          </div>
+          <div id="BuyButton" class="btn btn-success">
+            BUY
+          </div>
+          <div id="Total" class="highlight">
+            Total: $
+            <span id="TotalValue"></span>
+          </div>
+          <div id="CartItems">
+
+          </div>
+
+
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+  <!-- footer -->
+  <img src="./images/footer.png" style="width: 100%; margin-bottom: -60px;">
+
+
+  <!-- sweetalert2 -->
+  <template id="my-template">
+    <swal-title>
+      You can't Add to cart without Loging in!
+    </swal-title>
+    <swal-icon type="warning"></swal-icon>
+    <swal-button type="confirm">
+      Log In
+    </swal-button>
+    <swal-button type="cancel">
+      Close
+    </swal-button>
+    <swal-button color="#42bee8" type="deny">
+      Sign up
+    </swal-button>
+    <swal-param name="allowEscapeKey" value="false" />
+    <swal-param name="customClass" value='{ "popup": "my-popup" }' />
+    <swal-function-param name="didOpen" value="popup => console.log(popup)" />
+  </template>
+  <!-- sweetalert2 -->
+
+  <!-- scripts -->
+  <script src="./app.js" type="module">
+  </script>
+  <script src="./Account/LoginControl.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"> </script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script>
+
+  </script>
+</body>
+
+</html>
